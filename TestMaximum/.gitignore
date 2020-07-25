@@ -1,3 +1,8 @@
+.vs/
+bin/
+obj/
+TestMaximum/TestMaximum.csproj
+TestMaximumNUnitTest/TestMaximumNUnitTest.csproj
 # unpacked plugin folders
 plugins/**/*
 
