@@ -49,5 +49,27 @@ namespace TestMaximumNUnitTest
             float maximumNumber = maximum.FindMaximumNumber(1f, 3f, 4f);
             Assert.AreEqual(4f, maximumNumber);
         }
+        [Test]
+        public void GivenStringMaximumNumber_WhenAtFirstPosition_ReturnTrue()
+        {
+            TestMaximum.MaximumUtility maximum = new TestMaximum.MaximumUtility();
+            string maximumNumber = maximum.FindMaximumNumber("C", "A", "B");
+            Assert.AreEqual("C", maximumNumber);
+        }
+        [Test]
+        public void GivenStringMaximumNumber_WhenAtSecondPosition_ReturnTrue()
+        {
+            TestMaximum.MaximumUtility maximum = new TestMaximum.MaximumUtility();
+            string maximumNumber = maximum.FindMaximumNumber("A", "C", "B");
+            Assert.AreEqual("C", maximumNumber);
+        }
+        [Test]
+        public void GivenStringMaximumNumber_WhenAtThirdPosition_ReturnTrue()
+        {
+            TestMaximum.MaximumUtility maximum = new TestMaximum.MaximumUtility();
+            string maximumNumber = maximum.FindMaximumNumber("B", "A", "C");
+            Assert.AreEqual("C", maximumNumber);
+        }
+
     }
 }
