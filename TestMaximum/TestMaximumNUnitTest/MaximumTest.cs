@@ -24,8 +24,30 @@ namespace TestMaximumNUnitTest
         public void GivenMaximumNumber_WhenAtThirdPosition_ReturnTrue()
         {
             TestMaximum.MaximumUtility maximum = new TestMaximum.MaximumUtility();
-            int maximumNumber = maximum.FindMaximumNumber(1, 3, 4);
-            Assert.AreEqual(4, maximumNumber);
+            float maximumNumber = maximum.FindMaximumNumber(1f, 3f, 4f);
+            Assert.AreEqual(4f, maximumNumber);
+        }
+
+        [Test]
+        public void GivenFlotMaximumNumber_WhenAtFirstPosition_ReturnTrue()
+        {
+            TestMaximum.MaximumUtility maximum = new TestMaximum.MaximumUtility();
+            float maximumNumber = maximum.FindMaximumNumber(4f, 3f, 1f);
+            Assert.AreEqual(4f, maximumNumber);
+        }
+        [Test]
+        public void GivenFlotMaximumNumber_WhenAtSecondPosition_ReturnTrue()
+        {
+            TestMaximum.MaximumUtility maximum = new TestMaximum.MaximumUtility();
+            float maximumNumber = maximum.FindMaximumNumber(3f, 4f, 1f);
+            Assert.AreEqual(4f, maximumNumber);
+        }
+        [Test]
+        public void GivenFlotMaximumNumber_WhenAtThirdPosition_ReturnTrue()
+        {
+            TestMaximum.MaximumUtility maximum = new TestMaximum.MaximumUtility();
+            float maximumNumber = maximum.FindMaximumNumber(1f, 3f, 4f);
+            Assert.AreEqual(4f, maximumNumber);
         }
     }
 }
