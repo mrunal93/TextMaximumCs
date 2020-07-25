@@ -1,30 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Runtime.InteropServices;
+using System.Runtime.InteropServices.ComTypes;
 
 namespace TestMaximum
 {
-    public class MaximumUtility<E> where E : IComparable
+    public class MaximumUtility<E>
     {
-        E XNumber;
-        E YNumber;
-        E ZNumber;
+        E[] inputValue;
 
-        public MaximumUtility(E XNumber, E YNumber, E ZNumber)
+        public E FindMaximumNumber(params E[] inputValue) 
         {
-            this.XNumber = XNumber;
-            this.YNumber = YNumber;
-            this.ZNumber = ZNumber;
-        }
-
-        public E FindMaximumNumber()
-        {
-            E maximum = XNumber;
-            if (maximum.CompareTo(YNumber) < 0)
-                maximum = YNumber;
-            if (maximum.CompareTo(ZNumber) < 0)
-                maximum = ZNumber;
-            return maximum;
-        }
+            Array.Sort(inputValue);
+            int maximum = inputValue.Length - 1;
+            return inputValue[maximum];
+            
+        }   
     }
+
 }
