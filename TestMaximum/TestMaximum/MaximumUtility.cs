@@ -4,11 +4,20 @@ using System.Text;
 
 namespace TestMaximum
 {
-    public class MaximumUtility
+    public class MaximumUtility<E> where E : IComparable
     {
-        
+        E XNumber;
+        E YNumber;
+        E ZNumber;
 
-        public E FindMaximumNumber<E>(E XNumber, E YNumber, E ZNumber) where E : IComparable
+        public MaximumUtility(E XNumber, E YNumber, E ZNumber)
+        {
+            this.XNumber = XNumber;
+            this.YNumber = YNumber;
+            this.ZNumber = ZNumber;
+        }
+
+        public E FindMaximumNumber()
         {
             E maximum = XNumber;
             if (maximum.CompareTo(YNumber) < 0)
@@ -17,23 +26,5 @@ namespace TestMaximum
                 maximum = ZNumber;
             return maximum;
         }
-        //public float FindMaximumNumber(float XNumber, float YNumber, float ZNumber)
-        //{
-        //    float maximum = XNumber;
-        //    if (maximum.CompareTo(YNumber) < 0)
-        //        maximum = YNumber;
-        //    if (maximum.CompareTo(ZNumber) < 0)
-        //        maximum = ZNumber;
-        //    return maximum;
-        //}
-        //public string FindMaximumNumber(string XNumber, string YNumber, string ZNumber)
-        //{
-        //    string maximum = XNumber;
-        //    if (maximum.CompareTo(YNumber) < 0)
-        //        maximum = YNumber;
-        //    if (maximum.CompareTo(ZNumber) < 0)
-        //        maximum = ZNumber;
-        //    return maximum;
-        //}
     }
 }
