@@ -1,0 +1,12 @@
+D:\Bridgelabz\day5\Annotation\Annotation\bin\Debug\netcoreapp3.1\Annotation.exe
+D:\Bridgelabz\day5\Annotation\Annotation\bin\Debug\netcoreapp3.1\Annotation.deps.json
+D:\Bridgelabz\day5\Annotation\Annotation\bin\Debug\netcoreapp3.1\Annotation.runtimeconfig.json
+D:\Bridgelabz\day5\Annotation\Annotation\bin\Debug\netcoreapp3.1\Annotation.runtimeconfig.dev.json
+D:\Bridgelabz\day5\Annotation\Annotation\bin\Debug\netcoreapp3.1\Annotation.dll
+D:\Bridgelabz\day5\Annotation\Annotation\bin\Debug\netcoreapp3.1\Annotation.pdb
+D:\Bridgelabz\day5\Annotation\Annotation\obj\Debug\netcoreapp3.1\Annotation.csprojAssemblyReference.cache
+D:\Bridgelabz\day5\Annotation\Annotation\obj\Debug\netcoreapp3.1\Annotation.AssemblyInfoInputs.cache
+D:\Bridgelabz\day5\Annotation\Annotation\obj\Debug\netcoreapp3.1\Annotation.AssemblyInfo.cs
+D:\Bridgelabz\day5\Annotation\Annotation\obj\Debug\netcoreapp3.1\Annotation.dll
+D:\Bridgelabz\day5\Annotation\Annotation\obj\Debug\netcoreapp3.1\Annotation.pdb
+D:\Bridgelabz\day5\Annotation\Annotation\obj\Debug\netcoreapp3.1\Annotation.genruntimeconfig.cache

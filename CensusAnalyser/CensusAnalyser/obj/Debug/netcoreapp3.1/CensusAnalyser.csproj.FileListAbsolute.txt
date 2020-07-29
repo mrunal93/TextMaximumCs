@@ -1,0 +1,6 @@
+D:\Bridgelabz\Day7\CensusAnalyser\CensusAnalyser\bin\Debug\netcoreapp3.1\CensusAnalyser.exe
+D:\Bridgelabz\Day7\CensusAnalyser\CensusAnalyser\obj\Debug\netcoreapp3.1\CensusAnalyser.csprojAssemblyReference.cache
+D:\Bridgelabz\Day7\CensusAnalyser\CensusAnalyser\obj\Debug\netcoreapp3.1\CensusAnalyser.AssemblyInfoInputs.cache
+D:\Bridgelabz\Day7\CensusAnalyser\CensusAnalyser\obj\Debug\netcoreapp3.1\CensusAnalyser.AssemblyInfo.cs
+D:\Bridgelabz\Day7\CensusAnalyser\CensusAnalyser\bin\Debug\netcoreapp3.1\LumenWorks.Framework.IO.dll
+D:\Bridgelabz\Day7\CensusAnalyser\CensusAnalyser\obj\Debug\netcoreapp3.1\CensusAnalyser.csproj.CopyComplete
